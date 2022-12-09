@@ -1716,9 +1716,6 @@ textarea.form-contacts__input {
     margin-bottom: 1rem;
   }
 
-  .item-clients__text:not(:last-child) {
-    margin-bottom: 1.5rem;
-  }
 
   .skills__title:not(:last-child) {
     margin-bottom: 1.875rem;
@@ -2225,18 +2222,6 @@ textarea.form-contacts__input {
 @supports not (margin-bottom: clamp( 1rem , 0.6483516484rem  +  1.7582417582vw , 2rem )) {
     .item-clients__image-ibg:not(:last-child) {
       margin-bottom: calc(1rem + 1 * (100vw - 20rem) / 56.875);
-    }
-}
-
-@supports (margin-bottom: clamp( 1.5rem , 0.9725274725rem  +  2.6373626374vw , 3rem )) {
-    .item-clients__text:not(:last-child) {
-      margin-bottom: clamp( 1.5rem , 0.9725274725rem  +  2.6373626374vw , 3rem );
-    }
-}
-
-@supports not (margin-bottom: clamp( 1.5rem , 0.9725274725rem  +  2.6373626374vw , 3rem )) {
-    .item-clients__text:not(:last-child) {
-      margin-bottom: calc(1.5rem + 1.5 * (100vw - 20rem) / 56.875);
     }
 }
 
