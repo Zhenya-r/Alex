@@ -1120,6 +1120,10 @@ h6 {
           flex: 1 1 auto;
 }
 
+.item-clients__text:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
 .item-clients__name {
   font-weight: 500;
   font-size: 0.875rem;
@@ -1562,10 +1566,6 @@ textarea.form-contacts__input {
     margin-bottom: 2rem;
   }
 
-  .item-clients__text:not(:last-child) {
-    margin-bottom: 3rem;
-  }
-
   .skills__title:not(:last-child) {
     margin-bottom: 7rem;
   }
@@ -1715,7 +1715,6 @@ textarea.form-contacts__input {
   .item-clients__image-ibg:not(:last-child) {
     margin-bottom: 1rem;
   }
-
 
   .skills__title:not(:last-child) {
     margin-bottom: 1.875rem;
