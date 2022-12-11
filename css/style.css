@@ -1117,6 +1117,9 @@ html {
 }
 
 .item-clients__image-ibg {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 2.25rem;
+          flex: 0 0 2.25rem;
   margin-top: -2.8125rem;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
