@@ -131,6 +131,10 @@ h6 {
   font-size: inherit;
 }
 
+body {
+  background-color: #fff;
+}
+
 .lock body {
   overflow: hidden;
   -ms-touch-action: none;
@@ -208,6 +212,10 @@ html {
       touch-action: none;
   position: relative;
   overflow: hidden;
+}
+
+[data-fp-section] {
+  background-color: #fff;
 }
 
 .fp-switching [data-fp-section] {
@@ -522,11 +530,12 @@ html {
 
 .footer {
   padding-top: 6.25rem;
-  padding-bottom: calc 1.25remenv(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
   background-color: #FBFBFB;
 }
 
 .footer__container {
+  padding-bottom: 1.25rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 1fr auto;
